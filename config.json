@@ -1,0 +1,64 @@
+{
+    "Rooms": [
+        {
+            "id": 0,
+            "name": "Kitchen",
+            "description": "You have entered the bloody kitchen of doom. It wreaks and blood is splattered everywhere.",
+            "connected_rooms": {
+                "east": 2,
+                "up": 3
+            },
+            "item": "false"
+        },
+        {
+            "id": 1,
+            "name": "Atrium",
+            "description": "Welcome. You are now locked inside of the haunted mansion. One of these rooms contains the key to escape. Proceed with caution.",
+            "connected_rooms": {
+                "north": 2,
+                "down": 5
+            },
+            "item": "true"
+        },
+        {
+            "id": 2,
+            "name": "Dining Room",
+            "description": "Now you are in the dining room. Would you like to sit and eat some brain soup?",
+            "connected_rooms": {
+                "west": 0,
+                "up": 4,
+                "south": 1
+            },
+            "item": "false"
+        },
+        {
+            "id": 3,
+            "name": "Master Bedroom",
+            "description": "You are now in the master bedroom. There lies a dusty bed and blood stains on the wall. You are getting closer to your target.",
+            "connected_rooms": {
+                "east": 4,
+                "down": 0
+            },
+            "item": "false"
+        },
+        {
+            "id": 4,
+            "name": "Bedroom",
+            "description": "Inside this room lies a babies crib. Inside the empty crib is a skeleton.",
+            "connected_rooms": {
+                "west": 3,
+                "down": 2
+            },
+            "item": "false"
+        },
+        {
+            "id": 5,
+            "name": "Basement",
+            "description": "The dusty, dank dungeon. Spiderwebs encase every corner and hallway. In the corner there is a large door to exit needs to a key to be opened.",
+            "connected_rooms": {
+                "up": 1
+            },
+            "item": "false"
+        }
+    ]
+}
